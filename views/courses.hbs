@@ -1,12 +1,15 @@
 <div class="row">
  <div class="col-md-12">
  <br>
- <h2>Courses</h2>
+ <h2>Courses
+    <a href="/courses/add" class="btn btn-success float-end">Add New Course</a>
+ </h2>
  <hr />
  <table class="table-responsive">
     <thead>
         <th>Course Code</th>
         <th>Course Description</th>
+        <th></th>
     </thead>
     <tbody>
         {{#each courses}}
@@ -14,6 +17,9 @@
                 
                     <td><a href="/course/{{courseId}}">{{courseCode}}</a></td>
                     <td><a href="/students?course={{courseId}}">{{courseDescription}}</a></td>
+                    <td>
+                        <a href="/course/delete/{{courseId}}" class="btn btn-danger">Remove</a>
+                    </td>
                 </tr>
                 {{/each}}
     </tbody>
