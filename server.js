@@ -7,7 +7,7 @@
 * Name: Subash Dhital Student ID: 12334233 (sdhital1) Date: April 5 2024
 
 GitHub: https://github.com/subashdhital/assignment6
-Cyclic: https://victorious-cyan-beret.cyclic.app
+Cyclic: https://splendid-pocketbook-colt.cyclic.app
 
 ********************************************************************************/ 
 const express = require("express");
